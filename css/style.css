@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;	
+
+}
+html{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+head{
+	background-color: rgb(0,0,102);
+
+}
+h1{
+	margin-right: 25px;
+	text-decoration-color: white;
+	color: white;
+	margin-left: 25px;
+	margin-top: 15px;
+	text-align: left;
+}
+h2{
+	margin-top: 5px;
+	margin-left: 7px;
+	padding: 2px;
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+	font-family: HP Simplified;
+	text-align: left;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: -65px;
+	margin-right: 5px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.Products ul li{
+	margin-top: 250px;
+	float: left;
+	text-align: right;
+	display: inline-table;
+	text-decoration-style: solid;
+	font-size: 15px;
+	text-indent:inherit;
+	border-style: inset;
+	
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.Products{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border:1px solid #fff;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+div: .active{
+	color: black;
+	background-color: white;
+	}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+	background-image: url:("../men.jpg");
+}
+.bg-model{
+	transition: 0.6s ease;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.model-content{
+	transition: 0.6s ease;
+	width: 150px;
+	height: 75px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	text-align: top;
+	padding: 100px;
+	border-top: 10px;
+	position: absolute;
+}
+input{
+	width: 75%;
+	display: block;
+	margin: 25px;
+
+}
+.close{
+	transition: 1s ease;
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.model-content a{
+	color: white;
+	background-color: green;
+	background-position: all;
+	border: thick;
+	box-sizing: 250px 100px;
+	 margin-left: -100px;
+    margin-block-start: initial;
+    padding: 17.5px 150px;
+}
+.model-content a:hover{
+	background-color: #4dfa6d;
+}
+.pass{
+	mask-type: alpha;
+
+}
